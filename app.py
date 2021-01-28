@@ -25,7 +25,7 @@ bootstrap = Bootstrap(app)
 
 @app.route('/')
 def myindex():
-	return render_template('index.html')
+	return render_template('page1.html')
 
 @app.route('/home')
 def myhome():
